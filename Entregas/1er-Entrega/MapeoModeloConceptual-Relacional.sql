@@ -177,7 +177,7 @@ VAR BASE RELATION modificacionCondena (
   FOREIGN KEY (id_unidad) REFERENCES unidadCarcelaria,
   FOREIGN KEY (id_domicilio) REFERENCES domicilio,
 )
-
+/*
 ENUM T_Nacionalidad (Argentino, Paraguayo, Uruguayo, Brasilero, Chileno, Boliviano)
 
 ENUM T_EstadoCivil (Soltero Casado, Divorciados, Viudo)
@@ -192,3 +192,6 @@ ENUM T_Modalidad (Unidad, Domiciliaria)
 
 ENUM T_TipoModificacion (Extension, Reduccion, Traslado)
 
+*/
+
+-- COMENTARIO DE PRUEBA
